@@ -12,7 +12,7 @@ register = template.Library()
 @register.simple_tag(takes_context=True)
 def libravatar(context, email, size=None):
     https = context['request'].is_secure()
-    default = LIBRAVATAR_DEFAULT_HTTPS if https else LIBRAVATAR_DEFAULT_HTTP
+    default = LIBRAVATAR_DEFAULT_HTTPS if https else LIBRAVATAR_DEFAULT
     if hasattr(default, '__call__'):
         default = default(size)
     if not email:

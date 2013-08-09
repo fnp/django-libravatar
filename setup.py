@@ -15,7 +15,7 @@ setup(
     version=__version__,
     author='Radek Czajka',
     author_email='radekczajka@nowoczesnapolska.org.pl',
-    url = '',
+    url = 'http://git.nowoczesnapolska.org.pl/?p=django-libravatar.git',
     packages=find_packages(),
     include_package_data=True,
     license='GNU AGPL 3.0',
