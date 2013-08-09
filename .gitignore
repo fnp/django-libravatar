@@ -1,0 +1,28 @@
+*~
+*.orig
+*.log
+
+# Python garbage
+*.pyc
+.coverage
+pip-log.txt
+nosetests.xml
+build
+dist
+*.egg-info
+
+# Mac OS X garbage
+.DS_Store
+
+# Windows garbage
+thumbs.db
+
+# Eclipse
+.project
+.settings
+.pydevproject
+.tmp_*
+
+# Tags file
+TAGS
+
